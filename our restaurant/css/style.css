@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: black;
+    
+    
+}
+.container {
+    position: relative;
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: white;
+    background-image:url(../img/hero\ image.png);
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+}
+.header {
+}
+.header-flex {
+    display: flex;
+    margin: 55px 165px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+.logo {
+    display: flex;
+    flex-basis: 150px;
+    justify-items: center;
+    
+}
+.logo-leftside {
+    width: 48.06px;
+    height: 48.06px;
+    border: 3px solid #FF7400;
+    transform: rotate(-45deg);
+}
+.logo-righttside {
+    width: 48.06px;
+    height: 48.06px;
+    border: 3px solid #FF7400;
+    transform: rotate(-45deg);
+    
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    
+}
+.nav {
+    
+    flex-basis: 40%;
+}
+.menu li{
+    list-style-type: none;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    
+
+}
+.menu-item {
+    
+}
+.basket {
+    width: 17px;
+}
+.vertical-line {  
+    width: 0px;
+    height: 51px;
+    border: 1px solid #FFFFFF;
+    margin-left: 15px;
+    margin-right: 34px;
+}
+.contact {
+}
+.contact-phone {
+    display: flex;
+    align-items: center;
+}
+.phone-icon {
+}
+.phone {
+    width: 30px;
+}
+.phonenumber {
+}
+.number {
+}
+.contact-reserve {
+}
+.reserve {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px
+}
+.contact-btn {
+    width: 157px;
+    height: 47px;
+    background: #FF7400;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 45px;
+}
+
