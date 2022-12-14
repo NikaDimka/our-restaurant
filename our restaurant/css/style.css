@@ -1,8 +1,8 @@
-*{
+*, *:after,*:before{
     margin: 0;
 }
 body{
-    background-color: black;
+    background-color: rgb(170, 139, 139);
     
     
 }
@@ -17,27 +17,36 @@ body{
     margin: 0 auto;
 }
 .header {
+    position: absolute;
+    width: 1110px;
+    top:55px;
+    left: 165px;
+    right: 165px;
+   
+
+    
 }
 .header-flex {
     display: flex;
-    margin: 55px 165px;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
-    flex-wrap: wrap;
-    
-    
+     
 }
 .logo {
+    position: relative;
     display: flex;
-    flex-basis: 150px;
+    flex-basis: 100px;
     justify-items: center;
+    margin-right: 268px;
     
 }
 .logo-leftside {
+    position: absolute;
     width: 48.06px;
     height: 48.06px;
     border: 3px solid #FF7400;
     transform: rotate(-45deg);
+    left: 30px;
 }
 .logo-righttside {
     width: 48.06px;
@@ -45,35 +54,38 @@ body{
     border: 3px solid #FF7400;
     transform: rotate(-45deg);
     
+    
 }
 .nav-bar {
     display: flex;
+    justify-content: end;
     align-items: center;
     flex-grow: 1;
     
-}
-.nav {
     
-    flex-basis: 40%;
 }
-.menu li{
-    list-style-type: none;
+.navigation {
+    
+    flex-grow: 1;
+}
+ul a{
+    color: white;
+    padding: 0;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
 }
 .menu {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center; 
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
     text-transform: uppercase;
-    
+}
 
-}
-.menu-item {
-    
-}
 .basket {
     width: 17px;
 }
@@ -89,22 +101,29 @@ body{
 .contact-phone {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-bottom: -6px;
 }
-.phone-icon {
-}
+
 .phone {
     width: 30px;
 }
 .phonenumber {
+    flex-grow: 1;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px
+    
 }
 .number {
 }
 .contact-reserve {
 }
 .reserve {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 14px;
-    line-height: 16px
+    line-height: 16px;
+    margin-left: 15px; ;
 }
 .contact-btn {
     width: 157px;
